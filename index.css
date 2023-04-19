@@ -1,0 +1,56 @@
+.container {
+  width: 375px; /* Largura do iPhone X */
+  height: 812px; /* Altura do iPhone X */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Centraliza no topo */
+  background-color: #bbb1b1;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #050505; /* Cor do título */
+  margin-top: 30%;
+}
+
+.cep,
+.endereco {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333; /* Cor do texto */
+  margin-top: 70%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: #333; /* Cor do texto */
+  border-radius: 40px;
+}
+
+.button {
+  background-color: #4285f4; /* Cor do botão */
+  color: #ffffff; /* Cor do texto do botão */
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 40px;
+}
+
+.button:hover {
+  background-color: #3367d6; /* Cor do botão ao passar o mouse */
+}
